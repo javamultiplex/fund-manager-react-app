@@ -1,0 +1,13 @@
+.col {
+  text-align: left;
+}
+
+.form h1 {
+    text-align: center;
+    margin: 30px;
+    color: navy;
+}
+.col button {
+    align-content: center;
+    width: 50%;
+}
