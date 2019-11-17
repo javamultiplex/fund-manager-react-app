@@ -56,7 +56,7 @@ class LoginForm extends React.Component {
                         </Col>
                         <Col>
                           <Field
-                            type="pasword"
+                            type="password"
                             id="password"
                             name="password"
                             placeholder="Enter your password"

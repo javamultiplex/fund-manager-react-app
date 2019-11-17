@@ -5,6 +5,7 @@ export const registrationFormProps = {
     dob: '',
     email: '',
     phone: '',
+    password: '',
 },
 validateOnBlur: true,
 ValidateSchema: values => {

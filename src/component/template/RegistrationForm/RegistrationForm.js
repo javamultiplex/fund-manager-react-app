@@ -112,6 +112,27 @@ class RegistrationForm extends React.Component {
                           />
                         </Col>
                       </Row>
+                      <Row className="form-group">
+                        <Col xs="4" sm="4">
+                          <Label for="phone">Password</Label>
+                        </Col>
+                        <Col>
+                          <Field
+                            type="password"
+                            id="password"
+                            name="password"
+                            placeholder="Enter your password"
+                            className={`form-control ${
+                              touched.password && errors.password ? "is-invalid" : ""
+                            }`}
+                          />
+                          <ErrorMessage
+                            component="div"
+                            name="password"
+                            className="invalid-feedback"
+                          />
+                        </Col>
+                      </Row>
                       <Row>
                         <Col xs="3" sm="3"></Col>
                         <Col>
